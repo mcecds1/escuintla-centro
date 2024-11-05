@@ -27,7 +27,7 @@ body, html {
     background-color: #0f1541;
     width: 85vw;
     margin: 40px;
-    padding: 70px 0 60px 0;
+    padding: 50px 0 60px 0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body, html {
 }
 .mclogoimg {
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .titleprincipal {
@@ -302,7 +302,7 @@ body, html {
         border-radius: 0;
     }
     .socialp {
-        padding: 0 15px;
+        padding: 0 25px;
         text-align: center;
     }
     .divlogofloat {
@@ -316,15 +316,15 @@ body, html {
         margin: 10px;
     }
     .divboxesinfo {
-        height: 40vw;
-        width: 40vw;
+        height: 37vw;
+        width: 37vw;
         margin: 0px;
     }
     .infoboxesinfo {
-        width: 40vw;
+        width: 37vw;
     }
     .titlepasth2 {
-        font-size: 28px;
+        font-size: 23px;
     }
     
   }
