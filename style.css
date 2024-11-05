@@ -1,0 +1,621 @@
+body, html {
+    background-image: url(background.jpg);
+    font-family: montserrat;
+    min-width: 100%;
+    min-height: fit-content;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Animations */
+@keyframes mcec {
+    0% {
+    }
+    50% {
+      bottom: 55px;
+    }
+  
+    100% {
+    }
+  }
+.bodyfloat {
+    background-color: #0f1541;
+    width: 85vw;
+    margin: 40px;
+    padding: 70px 0 60px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 40px #dbe3e711;
+     
+}
+.centralmclogo {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    
+}
+.mclogoimg {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.titleprincipal {
+    width: fit-content;
+}
+.titleprincipalh3 {
+    color: #dbe3e7;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.boxesinformation {
+    border:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    
+}
+.boxes1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    
+}
+.divdivboxesinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+        margin: 20px 30px;
+
+    
+}
+.divboxesinfo {
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #01062c;
+    border-bottom: 10px;
+    transition: ease-out 150ms;
+    
+}
+.proximamenteindexcongre {
+  height: 35px;
+  width: 85%;
+  background-color: red;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  position: static;
+  justify-content: center;
+  align-items: center;
+  
+}
+#cocongreso25 {
+  translate: 0 -45px;
+}
+.proxi {
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  
+}
+.infoboxesinfo {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.titulodivs {
+    padding: 0;
+    margin: 0;
+    color: azure;
+    font-weight: 400;
+    text-align: center;
+}
+/* IMMAGENES */
+#movievan {
+    background-image: url(movimientoevangelistico.png);
+    background-size: cover;
+    background-position: center;
+}
+#congreso25 {
+    background-image: url(congreso25-169.png);
+    background-size: cover;
+    background-position: center;
+}
+#discimuje {
+    background-image: url(seminariomujeres.jpg);
+    background-size: 112%;
+    background-position: top left;
+}
+#servidomi {
+    background-image: url(Somos.png);
+    background-size: cover;
+    background-position: bottom;
+}
+#adiest {
+    background-image: url(adiestramiento.png);
+    background-size: cover;
+    background-position: center;
+}
+#discip {
+    background-image: url(discipulado.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+/* Eventos pasados */
+.boxespastevents {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.titlepast {
+    width: 100%;
+    justify-content: center;
+}
+.titlepasth2 {
+    text-align: center;
+    color: #e8edf0;
+    font-size: 35px;
+}
+
+/* Eventos pasados IMAGENES */
+#congreso25 {
+    background-image: url(congreso25-169.png);
+    background-size: cover;
+    background-position: center;
+}
+#congreso24 {
+    background-image: url(congreso24.png);
+    background-size: cover;
+    background-position: center;
+}
+#congreso23 {
+    background-image: url(congreso23.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Social */
+.socialandmore {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.socialh2 {
+    color: #dbe3e7;
+    text-align: center;
+    margin: -5px;
+}
+.titlesocial {
+    height: fit-content; 
+    justify-content: center;
+     margin: 0;
+     padding: 0;
+}
+.socialp {
+    color: azure;
+    font-weight: 400;
+}
+.logossocialdown {
+    width: 40%;
+    margin: 0 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logosdown {
+    height: 25px;
+}
+
+/* Hover todo */
+.divboxesinfo:hover {
+    transform: scale(1.02) translateY(-15px);
+    background-size: cover;
+    box-shadow: 0 10px 30px 0 #ca5f02d2, 0 -10px 30px 0 #ebbe0d;
+}
+
+/* Logo float */
+.divlogofloat {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    animation: mcec 4500ms infinite;
+}
+.a25 {
+  display: flex;
+  justify-content: center;
+}
+.logofloat {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    padding: 5px;
+    background-color: #272727;
+    border-radius: 100%;
+    border: 5px solid #ca5f02d2;
+    
+    
+}
+.congreh4aviso {
+    color: #a14d04;
+    text-align: center;
+    text-shadow:  
+    -1px -1px 0 white,  /* Sombra en la esquina superior izquierda */
+    1px -1px 0 white,   /* Sombra en la esquina superior derecha */
+    -1px 1px 0 white,   /* Sombra en la esquina inferior izquierda */
+    1px 1px 0 white;    /* Sombra en la esquina inferior derecha */
+}
+
+
+/* ScroolBar */
+
+/* Estilo general del scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+    background-color: #f0f0f0; /* Fondo de la barra */
+    
+}
+
+/* Estilo de la parte móvil del scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #0f154177; /* Color del "thumb" (la parte que se arrastra) */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #f0f0f0; /* Espacio entre el thumb y el borde */
+    
+}
+
+/* Estilo del scrollbar al estar en hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #331a0585; /* Color al pasar el cursor por encima */
+}
+
+
+
+/* MEDIASCREEN */
+@media only screen and (max-width: 767px) {
+    .bodyfloat {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .socialp {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .divlogofloat {
+        scale: 0.7;
+        bottom: -5px;
+        right: -3px;
+        margin: 0;
+      
+    }
+    .divdivboxesinfo {
+        margin: 10px;
+    }
+    .divboxesinfo {
+        height: 40vw;
+        width: 40vw;
+        margin: 0px;
+    }
+    .infoboxesinfo {
+        width: 40vw;
+    }
+    .titlepasth2 {
+        font-size: 28px;
+    }
+    
+  }
+
+
+
+/* Congreso 2025 */
+#congreso2025 {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-color: white;
+
+}
+
+.boton-keys-movil {
+    display: none;
+  }
+  .binfopelis {
+    font-weight: 600;
+  }
+  .superior-div-info-keys {
+    width: 90%;
+    display: flex;
+    padding: 10px 5% 0px 5%;
+    justify-content: space-between;
+  }
+  .peli-social-info {
+    width: auto;
+  }
+  
+  
+  .todopeliinf {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .portadapeliinfo {
+    display: grid;
+  
+    margin-left: 5%;
+    padding-left: 40px;
+    width: 55vw;
+  }
+  /* PeliPort Shadow and more */
+  .peliport {
+    border-radius: 20px;
+    max-width: 45vw;
+    min-height: 20vw;
+    border: transparent;
+  }
+  
+  #peliport-godzillayking  {
+    box-shadow: -8px 8px 90px 0px #6e464db4, 8px -8px 90px 0px #120d2eb7;
+  }
+  
+  
+  
+  /* End PeliPort */
+  
+  
+  .infopeliinfo {
+    width: 45vw;
+    height: auto;
+    display: grid;
+    justify-items: center;
+  }
+  .titulopeliinfo {
+    text-transform: uppercase;
+    padding-left: 40px; 
+    margin-bottom: -5px;
+  }
+
+ 
+ 
+ 
+
+
+
+  .contenedor {
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
+    background-color: #0f1541;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    box-shadow: 0px 10px 15px #03082e;
+  }
+  
+  
+  .logosa {
+    display: flex;
+    flex-direction: column;
+  }
+  .ctitle {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .logo {
+    height: 80px;
+    width: auto;
+    justify-content: center;
+
+
+  }
+  .boton-regresar {
+    padding: 7px 35px;
+    border: 3px solid #a14d04;
+    text-decoration: none;
+    border-radius: 24px;
+    font-weight: 500;
+    transition: 150ms;
+    color: #a14d04;
+  }
+  .boton-regresar:hover {
+    background-color: #a14d04;
+    color: white;
+  }
+  .descinfo {
+    padding: 30px 50px 50px 0;
+    margin: 0;
+    width: 90%;
+}
+  .inscribetediv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+  .textinscribete {
+    border-left: 2px solid #a14d04;
+    padding-left: 20px;
+  }
+  a {
+    text-decoration: none;
+    
+  }
+  
+  .wrapper {
+    padding: 1.5rem 0;
+    -webkit-filter: url('#goo');
+            filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: #a14d04;
+    color: white;
+    font-weight: 600;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: #01062c;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    -webkit-transform: none;
+            transform: none;
+}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 767px) {
+
+    .superior-div-info-keys {
+      display: grid;
+      width: auto
+      
+     
+      
+    }
+    .nombre-peli{
+      display: flex;
+      justify-content: center;
+      
+    }
+    .titulopeliinfo {
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    .titulopeliinfo {
+      font-size: 35px;
+    }
+    
+    .boton-regresar {
+      display: none;
+    }
+    .boton-keys-movil {
+      display: grid;
+      position: fixed;
+      height: auto;
+      width: auto;
+      justify-items: center;
+      bottom: 15px;
+      transition: 150ms;
+    } 
+    .boton-keys-movil:hover {
+      scale: 1.07;
+    }
+    .keys-regresar-movil {
+      width: 30px;
+      background-color: #a14d04;
+      border-radius: 100%;
+      border: 10px solid #a14d04;
+      
+      
+  
+    }
+    .regresar-back-keys {
+      color: #a14d04;
+      font-weight: 500;
+      margin-top: 3px;
+    
+      
+    }
+    .todopeliinf {
+      width: 100%;
+      display: grid;
+      justify-items: center;
+    }
+    .portadapeliinfo {
+      display: flex;
+      width: 90%;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
+      justify-content: center;
+    }
+    .peliport {
+      width: 95%;
+      height: auto;
+      max-width: none;
+      min-height: none;
+    }
+  
+    .infopeliinfo {
+      width: 90%;
+    }
+   .descinfo {
+
+    padding: 30px 0px;
+   }
+    
+    
+  }
