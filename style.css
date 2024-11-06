@@ -280,9 +280,9 @@ body, html {
 
 /* Estilo de la parte móvil del scrollbar */
 ::-webkit-scrollbar-thumb {
-    background-color: gray; /* Color del "thumb" (la parte que se arrastra) */
+    background-color: #9b9b9b; /* Color del "thumb" (la parte que se arrastra) */
     border-radius: 10px; /* Bordes redondeados */
-    border: 2px solid gray; /* Espacio entre el thumb y el borde */
+    border: 2px solid #9b9b9b; /* Espacio entre el thumb y el borde */
     
 }
 
