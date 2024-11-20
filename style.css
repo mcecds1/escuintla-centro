@@ -229,7 +229,7 @@ body, html {
 
 /* Social */
 .socialandmore {
-    margin: 40px 0;
+    margin: 50px 0 70px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
