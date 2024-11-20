@@ -283,8 +283,8 @@ body, html {
 .logofloat {
     display: flex;
     justify-content: space-around;
-    height: 70px;
-    padding: 10px;
+    height: 60px;
+    padding: 10px 20px;
     background-color: #272727;
     border-radius: 100%;
     border: 3px solid #efb668;
@@ -340,7 +340,7 @@ body, html {
     .divlogofloat {
         scale: 0.7;
         bottom: -5px;
-        right: -20px;
+        right: -5px;
         margin: 0;
       
     }
