@@ -85,6 +85,7 @@ body, html {
     padding: 0;
     flex-wrap: wrap;
     
+    
 }
 .divdivboxesinfo {
     display: flex;
@@ -530,13 +531,17 @@ body, html {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 0;
+    margin: 70px 0 0 0;
     padding: 0;
     width: 90%;
+    border-radius: 20px;
+    padding-left: 15px;
   }
   .textinscribete {
     border-left: 2px solid #a14d04;
     padding-left: 20px;
+    font-weight: 500;
+    text-shadow: 0px 0px 20px #a14d044d;
   }
   a {
     text-decoration: none;
@@ -547,7 +552,7 @@ body, html {
     padding: 1.5rem 0;
     -webkit-filter: url('#goo');
             filter: url('#goo');
-    margin-bottom: 50px;
+    margin-bottom: -10px;
 }
 
 .button {
@@ -601,9 +606,107 @@ body, html {
 }
 
 
+.buttonr {
+    display: inline-block;
+    text-align: center;
+    background: #080e3c;
+    color: white;
+    font-weight: 600;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 6.23em;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 1.25rem;
+}
 
+.buttonr:before,
+.buttonr:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: #a14d04;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    z-index: -1;
+}
 
+.buttonr:before {
+    top: -25%;
+    left: 20%;
+}
 
+.buttonr:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.buttonr:hover:before,
+.buttonr:hover:after {
+    -webkit-transform: none;
+            transform: none;
+}
+.informacioncongre2025 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+}
+.h2infocon {
+  text-align: center;
+}
+.infocon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.divinfocon25 {
+  border-top: #01062c solid 3px;
+  margin: 70px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+.h2h2info25 {
+  text-align: center;
+  color: #a14d04;
+}
+.implementos {
+  height: 70%;
+  width: 70%;
+}
+.maps25 {
+  border-radius: 20px;
+  
+}
+#info1 {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 40px;
+}
+#info2 {
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  padding: 30px;
+  
+}
+#info22 {
+  display: flex;
+}
 
 
   @media only screen and (max-width: 767px) {
@@ -695,7 +798,31 @@ body, html {
     padding: 30px 0px;
    }
     
-    
+   .inscribetediv {
+    margin: 10px 0 0 0;
+   }
+   .informacioncongre2025 {
+    flex-direction: column;
+   }
+   .infocon {
+    width: 100%;
+    margin-bottom: 20px;
+   }
+   .maps25 {
+    width: 100%;
+   }
+   #info1 {
+    padding: 0;
+   }
+   #info2 {
+    padding: 10%;
+    width: 80%;
+   }
+   #info22 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
   }
 
 
