@@ -393,7 +393,7 @@ body, html {
     height: 100%;
     border-radius: 0;
     background-color: white;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 
 }
 
@@ -670,6 +670,7 @@ body, html {
   justify-content: center;
   align-items: center;
   width: 45%;
+  height: 100%;
 }
 
 .divinfocon25 {
@@ -686,8 +687,8 @@ body, html {
   color: #a14d04;
 }
 .implementos {
-  height: 70%;
-  width: 70%;
+  height: 60%;
+  width: 60%;
 }
 .maps25 {
   border-radius: 20px;
