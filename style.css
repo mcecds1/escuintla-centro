@@ -18,6 +18,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 /* Animations */
 @keyframes mcec {
@@ -72,6 +73,7 @@ body, html {
     font-size: 25px;
     font-family: poppins;
     letter-spacing: -0.2px;
+    line-height: 27px;
     
 }
 .titleprincipalh3 {
@@ -122,6 +124,7 @@ body, html {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    margin-bottom: 5px;
     
 }
 .proximamenteindexcongre {
@@ -176,6 +179,7 @@ body, html {
     color: var(--white-text);
     font-weight: 400;
     text-align: center;
+    line-height: 18px;
 }
 /* IMMAGENES */
 #movievan {
@@ -309,7 +313,7 @@ body, html {
     padding: 20px 10px;
     background-color: #212b4b;
     border-radius: 100%;
-    border: 3px solid #E6D273;
+    border: 3px solid #a14d04;
     
     
 }
@@ -318,6 +322,7 @@ body, html {
     margin: 7px;
     text-align: center;
     text-shadow: 0 0 5px  #ac9d51bc;
+
    
 }
 
@@ -350,7 +355,7 @@ body, html {
         overflow: hidden;
     }
     .titleprincipal {
-      margin: 20px;
+      margin: 10px;
     }
     .socialp {
         padding: 0 25px;
@@ -369,7 +374,7 @@ body, html {
     .divboxesinfo {
         height: 40vw;
         width: 40vw;
-        margin: 0px;
+        
     }
     .infoboxesinfo {
         width: 37vw;
@@ -500,7 +505,7 @@ body, html {
     border-color: white;
     background-image: linear-gradient( #0f1541 75%, #0f1541c2 80%, white 100%);
     display: flex;
-    height: 110px;
+    height: 115px;
     justify-content: center;
     
   }
@@ -553,7 +558,6 @@ body, html {
   .textinscribete {
     border-left: 2px solid #a14d04;
     padding-left: 20px;
-    font-weight: 500;
     text-shadow: 0px 0px 20px #a14d044d;
     font-family: poppins;
   }
@@ -748,6 +752,7 @@ body, html {
       text-align: center;
       margin: 0px;
       padding: 0px;
+      line-height: 35px;
       
     }
     .titulopeliinfo {
@@ -812,9 +817,15 @@ body, html {
 
     padding: 30px 0px;
    }
+   .textinscribete {
+    border-left: none;
+    border-top: 2px solid #a14d04;
+    padding: 10px 0 0 0;
+    text-align: center;
+   }
     
    .inscribetediv {
-    margin: 10px 0 0 0;
+    margin: 0px 0 0 0;
    }
    .informacioncongre2025 {
     flex-direction: column;
