@@ -1,12 +1,14 @@
 :root {
 --white-logo-mcec: white;
 --white-text: azure;
+--grey-text: rgb(233, 233, 233);
 
 }
 
 body, html {
-    background-image: url(background.jpg);
-    font-family: montserrat;
+    background-image: radial-gradient(circle, #0f15417d 0%, #0f1541 45%, #0f15418e 70%, #0f154100 100%);
+    font-family: Poppins;
+    font-style: normal;
     min-width: 100%;
     min-height: fit-content;
     max-width: 100%;
@@ -16,7 +18,6 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 /* Animations */
 @keyframes mcec {
@@ -30,7 +31,7 @@ body, html {
     }
   }
 .bodyfloat {
-    background-color: #0f1541;
+    background-color: #080d36c6;
     width: 85vw;
     margin: 40px;
     padding: 50px 0 60px 0;
@@ -51,7 +52,7 @@ body, html {
 }
 .mclogoimg {
     height: 100px;
-    margin-bottom: 10px;
+    margin: 50px;
 }
 
 .textwhite {
@@ -59,14 +60,28 @@ body, html {
 }
 
 
+
 .titleprincipal {
     width: fit-content;
 }
-.titleprincipalh3 {
+.titleprincipalh2 {
     color: var(--white-logo-mcec);
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: poppins;
+    letter-spacing: -0.2px;
+    
+}
+.titleprincipalh3 {
+  color: var(--grey-text);
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: poppins;
 }
 .boxesinformation {
     border:0;
@@ -239,6 +254,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .socialh2 {
     color: #dbe3e7;
@@ -256,7 +272,7 @@ body, html {
     font-weight: 400;
 }
 .logossocialdown {
-    width: 40%;
+    width: 50%;
     margin: 0 30%;
     display: flex;
     justify-content: space-evenly;
@@ -291,21 +307,18 @@ body, html {
     justify-content: space-around;
     height: 60px;
     padding: 20px 10px;
-    background-color: #272727;
+    background-color: #212b4b;
     border-radius: 100%;
-    border: 3px solid #efb668;
+    border: 3px solid #E6D273;
     
     
 }
 .congreh4aviso {
-    color: #b3621b;
+    color: var(--white-text);
     margin: 7px;
     text-align: center;
-    text-shadow:  
-    -1px -1px 0 white,  /* Sombra en la esquina superior izquierda */
-    1px -1px 0 white,   /* Sombra en la esquina superior derecha */
-    -1px 1px 0 white,   /* Sombra en la esquina inferior izquierda */
-    1px 1px 0 white;    /* Sombra en la esquina inferior derecha */
+    text-shadow: 0 0 5px  #ac9d51bc;
+   
 }
 
 
@@ -314,7 +327,7 @@ body, html {
 /* Estilo general del scrollbar */
 ::-webkit-scrollbar {
     width: 12px; /* Ancho de la barra de desplazamiento */
-    background-color: transparent; /* Fondo de la barra */
+    background-color: #ffffff00; /* Fondo de la barra */
     
 }
 
@@ -485,11 +498,11 @@ body, html {
     border-left: 0px;
     border-right: 0px;
     border-color: white;
-    background-color: #0f1541;
+    background-image: linear-gradient( #0f1541 75%, #0f1541c2 80%, white 100%);
     display: flex;
-    height: 90px;
+    height: 110px;
     justify-content: center;
-    box-shadow: 0px 10px 15px #03082e;
+    
   }
   
   
@@ -542,6 +555,7 @@ body, html {
     padding-left: 20px;
     font-weight: 500;
     text-shadow: 0px 0px 20px #a14d044d;
+    font-family: poppins;
   }
   a {
     text-decoration: none;
@@ -567,7 +581,7 @@ body, html {
     position: relative;
     min-width: 8.23em;
     text-decoration: none;
-    font-family: montserrat;
+    font-family: poppins;
     font-size: 1.25rem;
 }
 
@@ -618,7 +632,7 @@ body, html {
     position: relative;
     min-width: 6.23em;
     text-decoration: none;
-    font-family: montserrat;
+    font-family: poppins;
     font-size: 1.25rem;
 }
 
@@ -945,3 +959,4 @@ body, html {
       width: 100%;
     }
 }
+
