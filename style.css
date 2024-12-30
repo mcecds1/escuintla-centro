@@ -66,7 +66,7 @@ body, html {
     width: fit-content;
 }
 .titleprincipalh2 {
-    color: var(--white-logo-mcec);
+    color: var(--white-text);
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -176,7 +176,7 @@ body, html {
 .titulodivs {
     padding: 0;
     margin: 0;
-    color: var(--white-text);
+    color: var(--white-logo-mcec);
     font-weight: 400;
     text-align: center;
     line-height: 18px;
@@ -231,7 +231,7 @@ body, html {
 }
 .titlepasth2 {
     text-align: center;
-    color: #e8edf0;
+    color: var(--white-text);
     font-size: 30px;
 }
 
@@ -254,14 +254,14 @@ body, html {
 
 /* Social */
 .socialandmore {
-    margin: 25px 0;
+    margin: 25px 0 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .socialh2 {
-    color: #dbe3e7;
+    color: var(--white-text);
     text-align: center;
     margin: -5px;
 }
@@ -272,7 +272,7 @@ body, html {
      padding: 0;
 }
 .socialp {
-    color: azure;
+    color: var(--grey-text);
     font-weight: 400;
 }
 .logossocialdown {
@@ -325,7 +325,17 @@ body, html {
 
    
 }
-
+.encuentranostitle {
+ text-align: center;
+ color: var(--white-text);
+}
+.encuentranosdiv {
+  width: 90%;
+}
+.mapsinicio {
+  width: 70vw;
+  border-radius: 20px;
+}
 
 /* ScroolBar */
 
@@ -398,6 +408,10 @@ body, html {
       width: 75%;
       height: 30px;
       align-items: center;
+    }
+    .mapsinicio {
+      height: 350px;
+      width: 80vw;
     }
 
   }
