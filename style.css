@@ -985,3 +985,12 @@ body, html {
     }
 }
 
+.divdownp {
+  margin: 30px;
+}
+.downerpm {
+  color: #999999c6;
+  line-height: 0;
+  margin-top: 0px;
+  text-align: center;
+}
