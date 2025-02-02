@@ -1065,12 +1065,12 @@ body, html {
   }
 }
 .carousel-caption p {
-  color: white;
-  text-shadow: 0 0 15px 0 grey;
+  color: transparent;
+  text-shadow: none;
 }
 .carousel-caption h3 {
   color: white;
-  text-shadow: 0 0 15px 0 grey;
+  
 }
 .item img {
   border-radius: 20px;
