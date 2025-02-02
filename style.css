@@ -151,13 +151,13 @@ body, html {
 }
 #divco25 {
   padding-right: 20px;
-  border-right: solid 2px red;
+  /* border-right: solid 2px red; */
   display: flex;
   align-items: center;
 }
-#cocongreso25 {
+/* #cocongreso25 {
   translate: 0 -35px;
-}
+} */
 
 
 .proxi {
@@ -447,7 +447,11 @@ body, html {
     align-items: end;
     height: fit-content;
   }
-  
+  .fotosdesc {
+    text-align: center;
+    color: black;
+    width: 90%;
+  }
   
   .todopeliinf {
     display: flex;
@@ -888,8 +892,9 @@ body, html {
 }
 .contenidomultimedia {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
+  flex-wrap: wrap;
   
   
 }
@@ -900,7 +905,7 @@ body, html {
   align-items: center;
 }
   .reproductor-face {
-    border-radius: 10px;
+    border-radius: 20px;
   }
   .conferenciatitle-multi {
     font-weight: 600;
@@ -909,7 +914,6 @@ body, html {
   }
 .publicacionesdiv {
   width: 100%;
-  margin-top: 50px;
   display: flex;
   justify-content: space-around;
 }
@@ -917,12 +921,13 @@ body, html {
   width: 40%;
 }
 .publicacioness {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 .contenidomultimediaphotos {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   padding-top: 60px;
 }
@@ -936,7 +941,7 @@ body, html {
     }
     .contenidomultimedia {
       display: grid;
-      width: 95%;
+      width: 100%;
       justify-content: center;
       height: fit-content;
     }
@@ -955,6 +960,9 @@ body, html {
     .publicacionesdiv {
       flex-direction: column;
       align-items: center;
+    }
+    .reproductor-face {
+      height: 200px;
     }
   }
 
@@ -994,4 +1002,81 @@ body, html {
   margin-top: 0px;
   text-align: center;
     font-size: 13px;
+}
+/* Slider Carrouse con25 */
+
+.publicacionesdiv {
+  width: 100%;
+  position: relative;
+
+}
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  width: 100%;
+}
+.prev ,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6 ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  border: solid white 2px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+.prev:hover, 
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.elements {
+  text-align: center;
+
+}
+.quadrate {
+  cursor: pointer;
+  height: 4px;
+  width: 50px;
+  margin: 0 2px;
+  background-color: #717171;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-radius: 6px;
+}
+.active, .quadrate:hover {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .publicacionesdiv {
+    width: 100%;
+  }
+}
+.carousel-caption p {
+  color: white;
+  text-shadow: 0 0 15px 0 grey;
+}
+.carousel-caption h3 {
+  color: white;
+  text-shadow: 0 0 15px 0 grey;
+}
+.item img {
+  border-radius: 20px;
+}
+.item, .carousel-caption, .active, .carousel-inner {
+  background-color: none;
+  background-image: none;
+  background: none;
 }
